@@ -14,8 +14,8 @@ const Outer = styled.div`
 export default class Responsive extends Component {
     dummyData = [{
         deadline:"December, 30, 2021",
-        authorLink: "#",
-        nftLink: "#",
+        authorLink: "/Author",
+        nftLink: "/ItemDetail",
         bidLink: "#",
         authorImg: "./img/author/author-1.jpg",
         previewImg: "./img/items/static-1.jpg",

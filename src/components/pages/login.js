@@ -70,11 +70,7 @@ const logintwo= () => (
                 <div className="clearfix"></div>
                 
                 <div className="spacer-single"></div>
-                  <ul className="list s3">
-                      <li>Login with:</li>
-                      <li><span >Facebook</span></li>
-                      <li><span >Google</span></li>
-                  </ul>
+                 
               </form>
             </div>
           </div>

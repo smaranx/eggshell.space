@@ -1,7 +1,10 @@
 import React from "react";
-import Clock from "../components/Clock";
+import { Tabs, Tab } from "react-bootstrap";
 import Footer from '../components/footer';
 import { createGlobalStyle } from 'styled-components';
+import Calendly from "../components/Calendly";
+
+
 
 const GlobalStyles = createGlobalStyle`
   header#myHeader.navbar.white {
@@ -22,40 +25,23 @@ const GlobalStyles = createGlobalStyle`
 `;
 
 
-  
-
-const Colection= function() {
-
-const [openMenu, setOpenMenu] = React.useState(true);
-const [openMenu1, setOpenMenu1] = React.useState(false);
-const handleBtnClick = (): void => {
-  setOpenMenu(!openMenu);
-  setOpenMenu1(false);
-  document.getElementById("Mainbtn").classList.add("active");
-  document.getElementById("Mainbtn1").classList.remove("active");
-};
-const handleBtnClick1 = (): void => {
-  setOpenMenu1(!openMenu1);
-  setOpenMenu(false);
-  document.getElementById("Mainbtn1").classList.add("active");
-  document.getElementById("Mainbtn").classList.remove("active");
-};
-return (
+const ItemDetail = () => {
+  return (
 <div>
 <GlobalStyles/>
+
+
 
   <section className='container'>
     <div className='row mt-md-5 pt-md-4'>
 
     <div className="col-md-6 text-center">
-                            <img src="./img/items/big-1.jpg" className="img-fluid img-rounded mb-sm-30" alt=""/>
+                            <img src="./img/items/big-1.jpg" className="img-fluid img-rounded mb-sm-30" alt=""/><br/>
+                            
                         </div>
+                        
                         <div className="col-md-6">
                             <div className="item_info">
-                                Auctions ends in 
-                                <div className="de_countdown">
-                                  <Clock deadline="December, 30, 2021" />
-                                </div>
                                 <h2>Pinky Ocean</h2>
                                 <div className="item_info_counts">
                                     <div className="item_info_type"><i className="fa fa-image"></i>Art</div>
@@ -70,6 +56,7 @@ return (
                                         <span>
                                             <img className="lazy" src="./img/author/author-1.jpg" alt=""/>
                                             <i className="fa fa-check"></i>
+                                            
                                         </span>
                                     </div>                                    
                                     <div className="author_list_info">
@@ -79,151 +66,63 @@ return (
 
                                 <div className="spacer-40"></div>
 
-                                <div className="de_tab">
+                                <div className="de_tab"> <b><strong>Book Meets</strong></b><br/><br/>
     
-                                <ul className="de_nav">
-                                    <li id='Mainbtn' className="active"><span onClick={handleBtnClick}>Bids</span></li>
-                                    <li id='Mainbtn1' className=''><span onClick={handleBtnClick1}>History</span></li>
-                                </ul>
+                            
+        
+          <div id="tabs2">
+            <Tabs fill defaultActiveKey="home">
+              <Tab eventKey="15 Mins" title="15 Mins">
+                  <div>
+                  <p>Consequat occaecat ullamco amet non eiusmod nostrud 
+                  dolore irure incididunt est duis anim sunt officia. 
+                  Fugiat velit proident aliquip nisi incididunt nostrud exercitation 
+                  proident est nisi.</p>
+                  </div>
+                  <br/>
+
+                <Calendly/>
+                </Tab>
+                <Tab eventKey="30 Mins" title="30 Mins">
+                  <div>
+                  <p>Ad pariatur nostrud pariatur exercitation ipsum ipsum culpa 
+                  mollit commodo mollit ex. Aute sunt incididunt amet commodo est 
+                  sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate 
+                  exercitation cillum id incididunt elit sunt.</p>
+                  </div>
+                  <br/>
+
+                <Calendly/>
+                </Tab>
+                <Tab eventKey="60 Mins" title="60 Mins">
+                  <div>
+                  <p>Est quis nulla laborum officia ad nisi ex nostrud 
+                  culpa Lorem excepteur aliquip dolor aliqua irure ex. 
+                  Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit 
+                  laborum veniam eu veniam.</p>
+                  </div>
+                  <br/>
+
+                  <Calendly/>
+                </Tab>
+              </Tabs>
+          </div>
+        
+
                                 
-                                <div className="de_tab_content">
-                                    {openMenu && (  
-                                    <div className="tab-1 onStep fadeIn">
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-1.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid accepted <b>0.005 ETH</b>
-                                                <span>by <b>Monica Lucas</b> at 6/15/2021, 3:20 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-2.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid <b>0.005 ETH</b>
-                                                <span>by <b>Mamie Barnett</b> at 6/14/2021, 5:40 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-3.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid <b>0.004 ETH</b>
-                                                <span>by <b>Nicholas Daniels</b> at 6/13/2021, 5:03 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-4.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid <b>0.003 ETH</b>
-                                                <span>by <b>Lori Hart</b> at 6/12/2021, 12:57 AM</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    )}
-
-                                    {openMenu1 && ( 
-                                    <div className="tab-2 onStep fadeIn">
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-5.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid <b>0.005 ETH</b>
-                                                <span>by <b>Jimmy Wright</b> at 6/14/2021, 6:40 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-1.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid accepted <b>0.005 ETH</b>
-                                                <span>by <b>Monica Lucas</b> at 6/15/2021, 3:20 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-2.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid <b>0.005 ETH</b>
-                                                <span>by <b>Mamie Barnett</b> at 6/14/2021, 5:40 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-3.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid <b>0.004 ETH</b>
-                                                <span>by <b>Nicholas Daniels</b> at 6/13/2021, 5:03 AM</span>
-                                            </div>
-                                        </div>
-
-                                        <div className="p_list">
-                                            <div className="p_list_pp">
-                                                <span>
-                                                    <img className="lazy" src="./img/author/author-4.jpg" alt=""/>
-                                                    <i className="fa fa-check"></i>
-                                                </span>
-                                            </div>                                    
-                                            <div className="p_list_info">
-                                                Bid <b>0.003 ETH</b>
-                                                <span>by <b>Lori Hart</b> at 6/12/2021, 12:57 AM</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    )}
-                                    
-                                </div>
+                                
                                 
                             </div>
-                                
                             </div>
                         </div>
+
+                        
 
     </div>
   </section>
 
+  
   <Footer />
 </div>
-);
-}
-export default Colection;
+)}
+export default ItemDetail;

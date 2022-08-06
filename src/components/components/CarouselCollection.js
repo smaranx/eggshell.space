@@ -76,7 +76,7 @@ export default class Responsive extends Component {
                       <i className="fa fa-check"></i>
                   </div>
                   <div className="nft_coll_info">
-                      <span onClick={()=> window.open("/home", "_self")}><h4>Abstraction</h4></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><h4>Abstraction</h4></span>
                       <span>ERC-192</span>
                   </div>
               </div>
@@ -88,11 +88,11 @@ export default class Responsive extends Component {
                       <span><img src="./img/collections/coll-2.jpg" className="lazy img-fluid" alt=""/></span>
                   </div>
                   <div className="nft_coll_pp">
-                      <span onClick={()=> window.open("/#", "_self")}><img className="lazy" src="./img/author/author-2.jpg" alt=""/></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><img className="lazy" src="./img/author/author-2.jpg" alt=""/></span>
                       <i className="fa fa-check"></i>
                   </div>
                   <div className="nft_coll_info">
-                      <span onClick={()=> window.open("/#", "_self")}><h4>Patternlicious</h4></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><h4>Patternlicious</h4></span>
                       <span>ERC-61</span>
                   </div>
               </div>
@@ -104,11 +104,11 @@ export default class Responsive extends Component {
                       <span><img src="./img/collections/coll-3.jpg" className="lazy img-fluid" alt=""/></span>
                   </div>
                   <div className="nft_coll_pp">
-                      <span onClick={()=> window.open("/#", "_self")}><img className="lazy" src="./img/author/author-3.jpg" alt=""/></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><img className="lazy" src="./img/author/author-3.jpg" alt=""/></span>
                       <i className="fa fa-check"></i>
                   </div>
                   <div className="nft_coll_info">
-                      <span onClick={()=> window.open("/#", "_self")}><h4>Skecthify</h4></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><h4>Skecthify</h4></span>
                       <span>ERC-126</span>
                   </div>
               </div>
@@ -120,11 +120,11 @@ export default class Responsive extends Component {
                       <span><img src="./img/collections/coll-4.jpg" className="lazy img-fluid" alt=""/></span>
                   </div>
                   <div className="nft_coll_pp">
-                      <span onClick={()=> window.open("/#", "_self")}><img className="lazy" src="./img/author/author-4.jpg" alt=""/></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><img className="lazy" src="./img/author/author-4.jpg" alt=""/></span>
                       <i className="fa fa-check"></i>
                   </div>
                   <div className="nft_coll_info">
-                      <span onClick={()=> window.open("/#", "_self")}><h4>Cartoonism</h4></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><h4>Cartoonism</h4></span>
                       <span>ERC-73</span>
                   </div>
               </div>
@@ -136,11 +136,11 @@ export default class Responsive extends Component {
                       <span><img src="./img/collections/coll-5.jpg" className="lazy img-fluid" alt=""/></span>
                   </div>
                   <div className="nft_coll_pp">
-                      <span onClick={()=> window.open("/#", "_self")}><img className="lazy" src="./img/author/author-5.jpg" alt=""/></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><img className="lazy" src="./img/author/author-5.jpg" alt=""/></span>
                       <i className="fa fa-check"></i>
                   </div>
                   <div className="nft_coll_info">
-                      <span onClick={()=> window.open("/#", "_self")}><h4>Virtuland</h4></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><h4>Virtuland</h4></span>
                       <span>ERC-85</span>
                   </div>
               </div>
@@ -152,11 +152,11 @@ export default class Responsive extends Component {
                       <span><img src="./img/collections/coll-6.jpg" className="lazy img-fluid" alt=""/></span>
                   </div>
                   <div className="nft_coll_pp">
-                      <span onClick={()=> window.open("/#", "_self")}><img className="lazy" src="./img/author/author-6.jpg" alt=""/></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><img className="lazy" src="./img/author/author-6.jpg" alt=""/></span>
                       <i className="fa fa-check"></i>
                   </div>
                   <div className="nft_coll_info">
-                      <span onClick={()=> window.open("/#", "_self")}><h4>Papercut</h4></span>
+                      <span onClick={()=> window.open("/Author", "_self")}><h4>Papercut</h4></span>
                       <span>ERC-42</span>
                   </div>
               </div>

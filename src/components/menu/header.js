@@ -135,8 +135,8 @@ const Header= function() {
                         {openMenu && (
                           <div className='item-dropdown'>
                             <div className="dropdown" onClick={closeMenu}>
-                              <NavLink to=" " onClick={()=> window.open("http://gigaland.grey.on3-step.com", "_self")}>New Grey Scheme</NavLink>
-                              <NavLink to=" " onClick={()=> window.open("http://gigaland.retro.on3-step.com", "_self")}>New Retro Scheme</NavLink>
+                              <NavLink to=" " onClick={()=> window.open("http://EggShell.grey.on3-step.com", "_self")}>New Grey Scheme</NavLink>
+                              <NavLink to=" " onClick={()=> window.open("http://EggShell.retro.on3-step.com", "_self")}>New Retro Scheme</NavLink>
                               <NavLink to="/" onClick={() => btn_icon(!showmenu)}>Homepage</NavLink>
                               <NavLink to="/home1" onClick={() => btn_icon(!showmenu)}>Homepage 1</NavLink>
                               <NavLink to="/home2" onClick={() => btn_icon(!showmenu)}>Homepage 2</NavLink>
@@ -228,51 +228,21 @@ const Header= function() {
 
                 <Breakpoint xl>
                   <div className='menu'>
-                    <div className='navbar-item'>
-                        <div ref={ref}>
-                          <div className="dropdown-custom dropdown-toggle btn" 
-                             onMouseEnter={handleBtnClick} onMouseLeave={closeMenu}>
-                            Home
-                            <span className='lines'></span>
-                            {openMenu && (
-                            <div className='item-dropdown'>
-                              <div className="dropdown" onClick={closeMenu}>
-                                <NavLink to=" " onClick={()=> window.open("http://gigaland.grey.on3-step.com", "_self")}>New Grey Scheme</NavLink>
-                                <NavLink to=" " onClick={()=> window.open("http://gigaland.retro.on3-step.com", "_self")}>New Retro Scheme</NavLink>
-                                <NavLink to="/">Homepage</NavLink>
-                                <NavLink to="/home1">Homepage 1</NavLink>
-                                <NavLink to="/home2">Homepage 2</NavLink>
-                                <NavLink to="/home3">Homepage 3</NavLink>
-                              </div>
-                            </div>
-                          )}
-                          </div>
-                          
-                        </div>
+
+                  <div className='navbar-item'>
+                      <NavLink to="/">
+                      Home
+                      <span className='lines'></span>
+                      </NavLink>
                     </div>
+
                     <div className='navbar-item'>
-                      <div ref={ref1}>
-                          <div className="dropdown-custom dropdown-toggle btn" 
-                             onMouseEnter={handleBtnClick1} onMouseLeave={closeMenu1}>
-                            Explore
-                            <span className='lines'></span>
-                            {openMenu1 && (
-                            <div className='item-dropdown'>
-                              <div className="dropdown" onClick={closeMenu1}>
-                              <NavLink to="/explore">Explore</NavLink>
-                              <NavLink to="/explore2">Explore 2</NavLink>
-                              <NavLink to="/rangking">Rangking</NavLink>
-                              <NavLink to="/colection">Collection</NavLink>
-                              <NavLink to="/ItemDetail">Items Details</NavLink>
-                              <NavLink to="/Auction">Live Auction</NavLink>
-                              <NavLink to="/helpcenter">Help Center</NavLink>
-                              </div>
-                            </div>
-                          )}
-                          </div>
-                          
-                        </div>
+                      <NavLink to="/explore">
+                      Explore
+                      <span className='lines'></span>
+                      </NavLink>
                     </div>
+                    
                     <div className='navbar-item'>
                       <div ref={ref2}>
                           <div className="dropdown-custom dropdown-toggle btn" 
@@ -282,52 +252,24 @@ const Header= function() {
                             {openMenu2 && (
                             <div className='item-dropdown'>
                               <div className="dropdown" onClick={closeMenu2}>
-                              <NavLink to="/Author">Author</NavLink>
-                              <NavLink to="/wallet">Wallet</NavLink>
                               <NavLink to="/create">Create</NavLink>
-                              <NavLink to="/create2">Create 2</NavLink>
-                              <NavLink to="/createOptions">Create Option</NavLink>
-                              <NavLink to="/news">News</NavLink>
-                              <NavLink to="/works">Gallery</NavLink>
                               <NavLink to="/login">login</NavLink>
-                              <NavLink to="/loginTwo">login 2</NavLink>
                               <NavLink to="/register">Register</NavLink>
-                              <NavLink to="/contact">Contact Us</NavLink>
+                              
                               </div>
                             </div>
                           )}
                           </div>
                         </div>
                     </div>
+
                     <div className='navbar-item'>
-                      <NavLink to="/activity">
-                      Activity
+                      <NavLink to="/contact">
+                      Contact Us
                       <span className='lines'></span>
                       </NavLink>
                     </div>
-                    <div className='navbar-item'>
-                      <div ref={ref3}>
-                          <div className="dropdown-custom dropdown-toggle btn" 
-                             onMouseEnter={handleBtnClick3} onMouseLeave={closeMenu3}>
-                            Elements
-                            <span className='lines'></span>
-                            {openMenu3 && (
-                            <div className='item-dropdown'>
-                              <div className="dropdown" onClick={closeMenu3}>
-                              <NavLink to="/elegantIcons">Elegant Icon</NavLink>
-                              <NavLink to="/etlineIcons">Etline Icon</NavLink>
-                              <NavLink to="/fontAwesomeIcons">Font Awesome Icon</NavLink>
-                              <NavLink to="/accordion">Accordion</NavLink>
-                              <NavLink to="/alerts">Alerts</NavLink>
-                              <NavLink to="/price">Pricing Table</NavLink>
-                              <NavLink to="/progressbar">Progess Bar</NavLink>
-                              <NavLink to="/tabs">Tabs</NavLink>
-                              </div>
-                            </div>
-                          )}
-                          </div>
-                        </div>
-                    </div>
+                    
                   </div>
                 </Breakpoint>
               </BreakpointProvider>

@@ -20,51 +20,51 @@ const featurebox= () => (
             <div className="col-lg-4 col-md-6 mb-3">
                 <div className="feature-box f-boxed style-3">
                   <Reveal className='onStep' keyframes={fadeInUp} delay={0} duration={600} triggerOnce>
-                    <i className="bg-color-2 i-boxed icon_wallet"></i>
+                    <i className="bg-color-2 i-boxed icon_clock"></i>
                   </Reveal>
                     <div className="text">
                       <Reveal className='onStep' keyframes={fadeInUp} delay={100} duration={600} triggerOnce>
-                        <h4 className="">Set up your wallet</h4>
+                        <h4 className="">15 mins</h4>
                       </Reveal>
                       <Reveal className='onStep' keyframes={fadeInUp} delay={200} duration={600} triggerOnce>
                         <p className="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
                       </Reveal>
                     </div>
-                    <i className="wm icon_wallet"></i>
+                    <i className="wm icon_clock_alt"></i>
                 </div>
             </div>
 
           <div className="col-lg-4 col-md-6 mb-3">
               <div className="feature-box f-boxed style-3">
                 <Reveal className='onStep' keyframes={fadeInUp} delay={0} duration={600} triggerOnce>
-                  <i className=" bg-color-2 i-boxed icon_cloud-upload_alt"></i>
+                  <i className=" bg-color-2 i-boxed icon_clock"></i>
                 </Reveal>
                   <div className="text">
                     <Reveal className='onStep' keyframes={fadeInUp} delay={100} duration={600} triggerOnce>
-                      <h4 className="">Add your NFT's</h4>
+                      <h4 className="">30 Mins</h4>
                     </Reveal>
                     <Reveal className='onStep' keyframes={fadeInUp} delay={200} duration={600} triggerOnce>
                       <p className="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
                     </Reveal>
                   </div>
-                  <i className="wm icon_cloud-upload_alt"></i>
+                  <i className="wm icon_clock_alt"></i>
               </div>
           </div>
 
           <div className="col-lg-4 col-md-6 mb-3">
               <div className="feature-box f-boxed style-3">
                 <Reveal className='onStep' keyframes={fadeInUp} delay={0} duration={600} triggerOnce>
-                  <i className=" bg-color-2 i-boxed icon_tags_alt"></i>
+                  <i className=" bg-color-2 i-boxed icon_clock"></i>
                 </Reveal>
                   <div className="text">
                     <Reveal className='onStep' keyframes={fadeInUp} delay={100} duration={600} triggerOnce>
-                      <h4 className="">Sell your NFT's</h4>
+                      <h4 className="">60 Mins</h4>
                     </Reveal>
                     <Reveal className='onStep' keyframes={fadeInUp} delay={200} duration={600} triggerOnce>
                       <p className="">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.</p>
                     </Reveal>
                   </div>
-                  <i className="wm icon_tags_alt"></i>
+                  <i className="wm icon_clock_alt"></i>
               </div>
           </div>
         </div>
