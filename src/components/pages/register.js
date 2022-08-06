@@ -89,24 +89,12 @@ const register= () => (
                                 </div>
                             </div>
 
-                            <div className="col-md-6">
-                                <div className="field-set">
-                                    <label>Phone:</label>
-                                    <input type='text' name='phone' id='phone' className="form-control"/>
-                                </div>
-                            </div>
+                           
 
                             <div className="col-md-6">
                                 <div className="field-set">
                                     <label>Password:</label>
                                     <input type='text' name='password' id='password' className="form-control"/>
-                                </div>
-                            </div>
-
-                            <div className="col-md-6">
-                                <div className="field-set">
-                                    <label>Re-enter Password:</label>
-                                    <input type='text' name='re-password' id='re-password' className="form-control"/>
                                 </div>
                             </div>
 
