@@ -98,29 +98,15 @@ const Header= function() {
           <div className='logo px-0'>
               <div className='navbar-title navbar-item'>
                 <NavLink to="/">
-                <img
-                    src="./img/logo.png"
-                    className="img-fluid d-block"
-                    alt="#"
-                  />
-                  <img
-                    src="./img/logo-2.png"
-                    className="img-fluid d-3"
-                    alt="#"
-                  />
-                  <img
-                    src="./img/logo-light.png"
-                    className="img-fluid d-none"
-                    alt="#"
-                  />
+              <div className="img-fluid d-block"
+                    alt="#">
+                 <h4>Eggshell</h4>
+                 </div>
                 </NavLink>
               </div>
           </div>
 
-          <div className='search'>
-            <input id="quick_search" className="xs-hide" name="quick_search" placeholder="search item here..." type="text" />
-          </div>
-                    
+         
               <BreakpointProvider>
                 <Breakpoint l down>
                   {showmenu && 
