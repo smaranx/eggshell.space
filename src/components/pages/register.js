@@ -84,7 +84,7 @@ const register= () => (
 
                             <div className="col-md-6">
                                 <div className="field-set">
-                                    <label>Choose a Username:</label>
+                                    <label>Calendly Username:</label>
                                     <input type='text' name='username' id='username' className="form-control"/>
                                 </div>
                             </div>

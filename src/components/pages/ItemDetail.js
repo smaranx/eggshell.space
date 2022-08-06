@@ -80,6 +80,8 @@ const ItemDetail = () => {
                   dolore irure incididunt est duis anim sunt officia. 
                   Fugiat velit proident aliquip nisi incididunt nostrud exercitation 
                   proident est nisi.</p>
+
+                  <h5><strong>Price : 0.08 ETH</strong></h5>
                   </div>
                   <br/>
 
@@ -91,8 +93,11 @@ const ItemDetail = () => {
                   mollit commodo mollit ex. Aute sunt incididunt amet commodo est 
                   sint nisi deserunt pariatur do. Aliquip ex eiusmod voluptate 
                   exercitation cillum id incididunt elit sunt.</p>
+                  <h5><strong>Price : 0.05 ETH</strong></h5>
                   </div>
                   <br/>
+
+                  
 
                 <Calendly1/>
                 </Tab>
@@ -102,8 +107,11 @@ const ItemDetail = () => {
                   culpa Lorem excepteur aliquip dolor aliqua irure ex. 
                   Nulla ut duis ipsum nisi elit fugiat commodo sunt reprehenderit 
                   laborum veniam eu veniam.</p>
+                  <h5><strong>Price : 0.01 ETH</strong></h5>
                   </div>
                   <br/>
+
+                 
 
                   <Calendly2/>
                 </Tab>
