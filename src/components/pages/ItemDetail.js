@@ -3,6 +3,8 @@ import { Tabs, Tab } from "react-bootstrap";
 import Footer from '../components/footer';
 import { createGlobalStyle } from 'styled-components';
 import Calendly from "../components/Calendly";
+import Calendly1 from "../components/Calendly1";
+import Calendly2 from "../components/Calendly2";
 
 
 
@@ -92,7 +94,7 @@ const ItemDetail = () => {
                   </div>
                   <br/>
 
-                <Calendly/>
+                <Calendly1/>
                 </Tab>
                 <Tab eventKey="60 Mins" title="60 Mins">
                   <div>
@@ -103,7 +105,7 @@ const ItemDetail = () => {
                   </div>
                   <br/>
 
-                  <Calendly/>
+                  <Calendly2/>
                 </Tab>
               </Tabs>
           </div>

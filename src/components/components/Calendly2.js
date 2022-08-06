@@ -1,11 +1,11 @@
 import React from "react";
 import { PopupButton } from "react-calendly";
 
-const Calendly = () => {
+const Calendly2 = () => {
   return (
     <div className="App">
       <PopupButton
-        url="https://calendly.com/smaran-ummadishetty/testing-a-calendly-intake-form"
+        url="https://calendly.com/smaran-ummadishetty/testing-calendly-1"
         rootElement={document.getElementById("test")}
         text="Click here to schedule!"
       />
@@ -13,4 +13,4 @@ const Calendly = () => {
     
   );
 };
-export default Calendly;
+export default Calendly2;
